@@ -87,7 +87,6 @@ public class MinimumCostPicker {
 
                 restaurant.getItems().add(item);
             }
-            System.out.println();
         } finally {
             if (reader != null) {
                 reader.close();
